@@ -1,3 +1,5 @@
+require './lib/figuras.rb'
+
 context "Pruebas para figuras Geometricas" do
 
    it "Suprograma para calcular el perímetro de un cuadrado" do
