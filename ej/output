@@ -1,0 +1,26 @@
+$ rspec -I. ej_spec.rb > output
+F
+
+Failures:
+
+  1) Ejemplo de un GRUPO de pruebas Ejemplo de DESCRIPCIÓN de una prueba
+     Failure/Error: expect(false).to eq(true)
+
+       expected: true
+            got: false
+
+       (compared using ==)
+
+       Diff:
+       @@ -1 +1 @@
+       -true
+       +false
+     # ./ej_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+Finished in 0.02586 seconds (files took 0.13332 seconds to load)
+1 example, 1 failure
+
+Failed examples:
+
+rspec ./ej_spec.rb:3 # Ejemplo de un GRUPO de pruebas Ejemplo de DESCRIPCIÓN de una prueba
+
