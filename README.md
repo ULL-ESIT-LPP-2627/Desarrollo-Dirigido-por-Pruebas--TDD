@@ -10,7 +10,7 @@ A continuación, se implementa la cantidad mínima de código necesaria para que
 
 El sistema que se ha de programar tiene que ser lo suficientemente flexible como para permitir ser probado automáticamente. 
 
-Cada prueba tiene que lo suficientemente pequeña de forma que permita determinar unívocamente si el código probado pasa o no la verificación que esta le impone.
+Cada prueba ha de ser lo suficientemente pequeña de forma que permita determinar unívocamente si el código probado pasa o no la verificación que esta le impone.
 
 Los pasos a seguir son:
 
